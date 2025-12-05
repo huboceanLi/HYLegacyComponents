@@ -1,0 +1,31 @@
+{
+  "name": "HYLegacyComponents",
+  "version": "0.1.0",
+  "summary": "A short description of HYLegacyComponents.",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/huboceanLi/HYLegacyComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "li437277219@gmail.com": "li437277219@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/huboceanLi/HYLegacyComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "HYLegacyComponents/Classes/**/*",
+  "resources": "HYLegacyComponents/Class/Resources/*",
+  "dependencies": {
+    "HYSSignalKit": [
+      "0.1.0"
+    ],
+    "HYDisplay": [
+      "0.1.2"
+    ]
+  }
+}

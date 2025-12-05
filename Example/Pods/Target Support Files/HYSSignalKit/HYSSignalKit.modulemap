@@ -1,0 +1,6 @@
+framework module HYSSignalKit {
+  umbrella header "HYSSignalKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

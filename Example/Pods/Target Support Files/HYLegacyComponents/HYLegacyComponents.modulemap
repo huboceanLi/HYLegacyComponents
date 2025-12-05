@@ -1,0 +1,6 @@
+framework module HYLegacyComponents {
+  umbrella header "HYLegacyComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}
