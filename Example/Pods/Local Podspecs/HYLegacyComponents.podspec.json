@@ -1,6 +1,6 @@
 {
   "name": "HYLegacyComponents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of HYLegacyComponents.",
   "description": "Add long description of the pod here.",
   "homepage": "https://github.com/huboceanLi/HYLegacyComponents",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/huboceanLi/HYLegacyComponents.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "14.0"
@@ -25,7 +25,7 @@
       "0.1.0"
     ],
     "HYDisplay": [
-      "0.1.2"
+      "0.1.6"
     ]
   }
 }

@@ -4,6 +4,7 @@ platform :ios, '14.0'
 
 target 'HYLegacyComponents_Example' do
   pod 'HYLegacyComponents', :path => '../'
+#  pod 'HYDisplay', '0.1.6'
 
   target 'HYLegacyComponents_Tests' do
     inherit! :search_paths

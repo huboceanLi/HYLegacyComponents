@@ -6,7 +6,7 @@
 
 #import <sys/sysctl.h>
 
-#import "AppBundle.h"
+#import "HYAppBundle.h"
 
 TGLocalization *legacyEffectiveLocalization() {
     return [[LegacyComponentsGlobals provider] effectiveLocalization];

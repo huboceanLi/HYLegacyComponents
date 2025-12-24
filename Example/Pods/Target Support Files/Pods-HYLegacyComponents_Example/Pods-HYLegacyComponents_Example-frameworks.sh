@@ -176,7 +176,7 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AppBundle/AppBundle.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYAppBundle/HYAppBundle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYAsyncDisplayKit/HYAsyncDisplayKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYDisplay/HYDisplay.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYLegacyComponents/HYLegacyComponents.framework"
@@ -185,7 +185,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/HYUIKitRuntimeUtils/HYUIKitRuntimeUtils.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AppBundle/AppBundle.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HYAppBundle/HYAppBundle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYAsyncDisplayKit/HYAsyncDisplayKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYDisplay/HYDisplay.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/HYLegacyComponents/HYLegacyComponents.framework"
